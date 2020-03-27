@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbHorizontal="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bamu"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/textfield"
+                android:text="BAMU"
+                android:textColor="#FCFFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="ARCH"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="CSE"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="IT"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="CIVIL"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="FY"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="EEP"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="CHEM"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="MECH"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/textfield"
+                android:foregroundGravity="center_horizontal"
+                android:text="ECT"
+                android:textColor="#FCF7F3F3"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

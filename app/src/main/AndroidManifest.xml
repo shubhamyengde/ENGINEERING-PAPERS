@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yengde.engineeringpapers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.yengde.engineeringpapers.mtech"></activity>
+        <activity android:name="com.yengde.engineeringpapers.FYb" />
+        <activity android:name="com.yengde.engineeringpapers.FY" />
+        <activity android:name="com.yengde.engineeringpapers.PDFOpener" />
+        <activity android:name="com.yengde.engineeringpapers.Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yengde.engineeringpapers.Mechb" />
+        <activity android:name="com.yengde.engineeringpapers.Eepb" />
+        <activity android:name="com.yengde.engineeringpapers.Archib" />
+        <activity android:name="com.yengde.engineeringpapers.Ectb" />
+        <activity android:name="com.yengde.engineeringpapers.Chemb" />
+        <activity android:name="com.yengde.engineeringpapers.Civilb" />
+        <activity android:name="com.yengde.engineeringpapers.ITb" />
+        <activity android:name="com.yengde.engineeringpapers.Cseb" />
+        <activity android:name="com.yengde.engineeringpapers.Chem" />
+        <activity android:name="com.yengde.engineeringpapers.Archi" />
+        <activity android:name="com.yengde.engineeringpapers.Mech" />
+        <activity android:name="com.yengde.engineeringpapers.Ect" />
+        <activity android:name="com.yengde.engineeringpapers.Eep" />
+        <activity android:name="com.yengde.engineeringpapers.Civil" />
+        <activity android:name="com.yengde.engineeringpapers.IT" />
+        <activity android:name="com.yengde.engineeringpapers.Cse" />
+    </application>
+
+</manifest>
